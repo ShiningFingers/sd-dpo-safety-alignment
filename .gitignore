@@ -18,6 +18,8 @@ DPO/unsafe_with_text/
 DPO/clean.txt
 DPO/install.log
 DPO/*.log
+DPO/*_output.txt
+DPO/test_first.png
 # 非关键训练 checkpoint（仅保留最终模型 + epoch_10/30/50）
 DPO/lora_safety_aligned_epoch_1/
 DPO/lora_safety_aligned_epoch_2/
