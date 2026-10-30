@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 实验中间产物（可由代码重新生成，不入仓）=====
+DPO/eval_baseline/
+DPO/eval_dpo/
+DPO/test_40_concepts/
+DPO/safe_with_text/
+DPO/unsafe_with_text/
+DPO/clean.txt
+DPO/install.log
+DPO/*.log
+# 非关键训练 checkpoint（仅保留最终模型 + epoch_10/30/50）
+DPO/lora_safety_aligned_epoch_1/
+DPO/lora_safety_aligned_epoch_2/
+DPO/lora_safety_aligned_epoch_5/
+DPO/lora_safety_aligned_epoch_15/
+DPO/lora_safety_aligned_epoch_20/
+DPO/lora_safety_aligned_epoch_25/
+DPO/lora_safety_aligned_epoch_35/
+DPO/lora_safety_aligned_epoch_40/
+DPO/lora_safety_aligned_epoch_45/
+
+# ===== IDE / 工具 =====
+.idea/
+.vscode/
+.trae/
+.screenshots/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.swp
